@@ -454,6 +454,12 @@ main {
     }
 }
 
+@media only screen and (max-width: 750px) {
+    .portfolio::after {
+        top: calc(100% - 16vh);
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .intro {
         margin-bottom: 3rem;
