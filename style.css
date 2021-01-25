@@ -135,36 +135,7 @@ main {
     top: 60px;
   transform-origin: center;
   transform: rotate(-90deg) skew(-25deg) translateY(16.6666666667px);
-}/* .r-side {
-    grid-column: 2/3;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background: linear-gradient(
-        to right bottom,
-        rgba(255, 255, 255, 0.7),
-        rgba(255, 255, 255, 0.3)
-    );
-    border-radius: 2rem;
-    padding: 2rem;    
-    position: relative;
-    align-self: center;
 }
-.r-side:after {
-    content: "";
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: 2em;
-    left: 100%;
-    display:block;
-    width:0;
-    height: 0;
-    border-bottom: 10px solid transparent;
-    border-right: 0;
-    border-left: 55px solid  rgba(255, 255, 255, 0.3);
-    border-top: 10px solid transparent;
-} */
 
 .skills {
     grid-column: 1/2;
@@ -188,7 +159,7 @@ main {
     justify-content: space-between;
 }
 .icon {
-    width: 2vw;
+    width: 50px;
     height: auto;
     justify-self: flex-start;
 }
@@ -409,7 +380,7 @@ main {
         margin: 0.4rem 0;
     }
     .icon {
-        width: 4vw;
+        width: 40px;
     }
     .portfolio::after {
         width: 30vw;
@@ -498,7 +469,7 @@ main {
         padding: 3rem;
     }
     .icon {
-        width: 7vw;
+        width: 25px;
     }
     .cards {
         margin: 0;
@@ -563,11 +534,14 @@ main {
     .bubble::before {
         right: 40%;
     }
+    .education {
+        margin-bottom: 5vh;
+    }
     .portfolio {
         position: relative;
         right: 0;
         top: 0;
-        height: 10vh;
+        height: 12vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -584,5 +558,8 @@ main {
         right: unset;
         bottom: -5%;
         left: calc(50% - 9.3vw);
+    }
+    .portfolio i {
+        padding-bottom: 1vh;
     }
 }    
