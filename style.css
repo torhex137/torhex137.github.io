@@ -299,12 +299,10 @@ main {
 .portfolio::after {
     content: "";
     background: crimson;
-    width: 25vw;
-    height: 25vh;
+    width: 300px;
+    height: 200px;
     position: absolute;
-    transform: rotate(45deg);
-    top: -300%;
-    right: -15vw;
+    transform: rotate(45deg) translate(-175px, 40px);
     z-index: -1;
 }
 .portfolio i {
@@ -346,20 +344,6 @@ main {
     .bubble::before {
         display: none;
     }
-    /* .r-side {
-        position: absolute;
-        top: calc(100% - 135vh);
-        right: 10%;
-        min-height: 30vh;
-        width: 20vw;
-        padding: 1rem;
-    }
-    .r-side:after {
-        display: none;
-    }
-    .r-side p {
-        font-size: 1.35em;
-    } */
 
     .info {
         grid-column: 1/3;
@@ -382,9 +366,6 @@ main {
     .icon {
         width: 40px;
     }
-    .portfolio::after {
-        width: 30vw;
-    }
 }
 
 @media only screen and (max-width: 950px) {
@@ -392,9 +373,6 @@ main {
         width: 55%;
         top: 30rem;
         right: calc(-30% + 2vw);
-    }
-    .portfolio::after {
-        right: -16vw;
     }
     .cards {
         margin: 0 10vw;
@@ -404,11 +382,6 @@ main {
     }
     .card-info > * {
         padding: 1vh 0;
-    }
-    .portfolio::after {
-        right: -20vw;
-        top: -330%;
-        width: 35vw;
     }
 }
 
@@ -422,12 +395,6 @@ main {
     }
     .cards {
         margin: 0 7vw;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .portfolio::after {
-        top: calc(100% - 16vh);
     }
 }
 
@@ -474,11 +441,8 @@ main {
     .cards {
         margin: 0;
     }
-    .portfolio::after {
-        width: 250px;
-        right: -22vw;
-    }
 }
+
 @media only screen and (max-width: 550px) {
     .intro {
         grid-column: 1/2;
@@ -511,11 +475,6 @@ main {
         grid-row: 9/12;
         grid-column: 1/2;
         margin: 1rem 2rem;
-    }
-    .portfolio::after {
-        right: -25vw;
-        width: 280px;
-        top: -250%;
     }
 }
 
@@ -553,11 +512,10 @@ main {
         transform: unset;
     }
     .portfolio span {
-        transform: none;
+        transform: rotate(0) translateX(-27px);
         top: unset;
         right: unset;
         bottom: -5%;
-        left: calc(50% - 9.3vw);
     }
     .portfolio i {
         padding-bottom: 1vh;
