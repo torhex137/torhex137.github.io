@@ -23,7 +23,6 @@
   }
   .card-info {
     flex-direction: column;
-    text-align: center;
   }
 }
 
@@ -99,6 +98,9 @@
   }
   .card-info > * {
       padding: 1vh 0;
+  }
+  .card-info p {
+    text-align: right;
   }
 }
 
@@ -209,10 +211,14 @@
   }
   .bubble::before {
       right: 40%;
+      bottom: -1.4rem;
       transform: rotate(133deg) skew(25deg) translateY(22.066667px);
   }
   .education {
       margin-bottom: 5vh;
+  }
+  .card-info {
+    text-align: center;
   }
   .portfolio {
       position: relative;
@@ -245,6 +251,6 @@
       transform: rotate(133deg) skew(25deg) translateY(21.166667px);
   }
   .image img {
-      margin-top: 20vh!important;
+      margin-top: 7vh!important;
   }
 }
