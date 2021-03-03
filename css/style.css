@@ -79,13 +79,17 @@ main {
     position: absolute;
     right: 2rem;
     top: 6rem;
-    color: white;
-    transform: rotate(50deg);
-    font-weight: bold;
+    transform: rotate(45deg);
     z-index: 3;
-    font-size: 1rem;
 }
-
+.print :is(span, i)  {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+.print i {
+    transform: translate(-4rem, -2rem) rotate(-45deg);
+}
 .triangle, .triangle:before, .triangle:after {
   width: 17rem;
   height: 17rem; 
@@ -94,7 +98,7 @@ main {
 	overflow: hidden;
 	position: relative;
 	border-radius: 20%;
-	transform: rotate(80deg) skewY(30deg) scaleX(.866);
+	transform: rotate(75deg) skewY(30deg) scaleX(.866);
 } 
 .triangle:before, .triangle:after {
 	position: absolute;
@@ -121,6 +125,7 @@ main {
     background: white;
     height: 90vh;
     width: 100%;
+    border-radius: 2rem;
     background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.7),
@@ -389,8 +394,8 @@ main {
     transform: rotate(45deg) translate(-175px, 40px);
     z-index: -1;
 }
-.portfolio i {
-    font-size: 2em;
+.portfolio i, .print i {
+    font-size: 2rem;
 }
 .portfolio span {
     transform: rotate(45deg);
