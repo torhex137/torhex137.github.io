@@ -179,7 +179,7 @@ main {
     justify-content: space-between;
 }
 .l-side > * {
-    padding: 0.25rem;
+    padding: 0.55rem;
 }
 .l-side a {
     padding-left: 1rem;

@@ -271,4 +271,7 @@
   .image img {
       margin-top: 7vh!important;
   }
+  .l-side a {
+    padding-left: 0;
+  }
 }
