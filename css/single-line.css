@@ -28,6 +28,7 @@
 
 @media only screen and (max-height: 970px) {
   .experience {
+    padding-right: 1rem;
     overflow-y: scroll;
   }
 }
