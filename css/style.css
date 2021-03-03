@@ -35,6 +35,11 @@ h3 {
 p {
     font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1920 - 300)));
 }
+
+a {
+  text-decoration: none;
+}
+
 ::-webkit-scrollbar {
     width: 12px;  /* for vertical scrollbars */
     height: 12px; /* for horizontal scrollbars */
@@ -378,6 +383,7 @@ main {
   flex-direction: column;
 }
 .portfolio {
+    display: none;
     position: absolute;
     right: 1.5em;
     top: 1.5em;
@@ -396,6 +402,9 @@ main {
 }
 .portfolio i, .print i {
     font-size: 2rem;
+}
+.portfolio i {
+    transform: rotate(-45deg);
 }
 .portfolio span {
     transform: rotate(45deg);
