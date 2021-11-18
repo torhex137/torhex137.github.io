@@ -267,19 +267,19 @@ main {
     height: 100%;
     background: rgba(236, 236, 236);
     position: absolute;
-    left: 50%;
+    left: 90%;
 }
 .react .progress {
     background: linear-gradient(to right top, #90e8fd, #90e8ff);
 }
 .react .progress::after {
-    left: 80%;
-}
-.express .progress {
-    background: linear-gradient(to right top, #efec00, #ffec00);
-}
-.express .progress::after {
     left: 90%;
+}
+.typescript .progress {
+    background: linear-gradient(to right top, #3979c9, #3979d9);
+}
+.typescript .progress::after {
+    left: 85%;
 }
 .next .progress {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -287,16 +287,16 @@ main {
 .next .progress::after {
     left: 80%;
 }
-.html .progress {
-    background: linear-gradient(to right top, #f9560f, #ff560f);
+.graphql .progress {
+    background: linear-gradient(to right top, #dd3bad, #dd3baf);
 }
-.html .progress::after {
+.graphql .progress::after {
     left: 100%;
 }
-.css .progress {
-    background: linear-gradient(to right top, #63baef,#63baff);
+.lambda .progress {
+    background: linear-gradient(to right top, #ef7f2a,#ef7f2b);
 }
-.css .progress::after {
+.lambda .progress::after {
     left: 90%;
 }
 .nginx .progress {
