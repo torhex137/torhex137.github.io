@@ -297,7 +297,7 @@ main {
     background: linear-gradient(to right top, #ef7f2a,#ef7f2b);
 }
 .lambda .progress::after {
-    left: 90%;
+    left: 80%;
 }
 .nginx .progress {
     background: linear-gradient(to right top, #3fbb65, #59bb65);
