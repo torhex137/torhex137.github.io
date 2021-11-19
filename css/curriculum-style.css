@@ -1,0 +1,83 @@
+a {
+  color: black;
+}
+p {
+  text-align: justify;
+}
+.glass {
+  display: grid;
+  height: unset;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: auto;
+margin: 5rem 0;
+padding-top: 5rem;
+}
+.bio {
+  grid-column: 2/3;
+  grid-row: 1/5;
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem 5rem 0 5rem;
+}
+.image img {
+  margin: 0;
+}
+.bubble::before {
+  right: 50%;
+  top: 114px;
+transform: rotate(-133deg) skew(-25deg) translateY(15.6666666667px);
+}
+.card.card-bio .card-info, .card.card-bio .card-detail {
+  display: flex;
+}
+.skills {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  margin: 2rem 5rem 0 5rem;
+  padding: 3rem;
+}
+.skills > div {
+  margin: 0.5rem 0;
+}
+.info {
+  height: 100%;
+  width: 100%;
+  justify-content: unset;
+grid-row: 5/9;
+grid-column: 1/3;
+margin: 0;
+}
+.experience {
+  margin: 5rem;
+  justify-content: unset;
+}
+.card {
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+.card-info {
+  width: unset;
+}
+.card-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem  1.5rem;
+  grid-gap: 5rem;
+}
+.card-detail-images {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.5rem;
+}
+.card-detail-images h4 {
+  text-align: center;
+  grid-column: 1/6;
+}
+.card-detail-images img {
+  width: 50px;
+}
+.educ {
+  margin: 0 5rem 5rem;
+}
